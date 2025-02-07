@@ -41,13 +41,13 @@ Connectivity between ns1 and ns2 is tested using the ping command. The following
 - Test 1: Ping from ns1 to ns2:
 
 ```bash
-    ip netns exec ns1 ping 10.12.0.10 -c 3
+    sudo ip netns exec ns1 ping 10.12.0.10 -c 3
 ```
 
 - Test 2: Ping from ns2 to ns1:
 
 ```bash
-    ip netns exec ns2 ping 10.11.0.10 -c 3
+    sudo ip netns exec ns2 ping 10.11.0.10 -c 3
 ```
 
 ### Expected Results:
