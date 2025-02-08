@@ -4,7 +4,7 @@ This document describes the network namespace setup implemented using a Makefile
 
 ## 1. Network Diagram
 
-![Alt text for the image](./net.png)
+![Network Diagram](./net.png)
 
 ## 2. IP Addressing Scheme
 
@@ -54,14 +54,6 @@ Connectivity between ns1 and ns2 is tested using the ping command. The following
 
 **Example Successful Output (Test 1):**
 
-```bash
-    PING 10.12.0.10 (10.12.0.10) 56(84) bytes of data.
-
-    64 bytes from 10.12.0.10: icmp_seq=1 ttl=64 time=0.231 ms
-    64 bytes from 10.12.0.10: icmp_seq=2 ttl=64 time=0.189 ms
-    64 bytes from 10.12.0.10: icmp_seq=3 ttl=64 time=0.198 ms
-
-    --- 10.12.0.10 ping statistics ---
-    3 packets transmitted, 3 received, 0% packet loss, time 2002ms
-    rtt min/avg/max/mdev = 0.189/0.206/0.231/0.020 ms
-```
+![Output of Test-1 and Test-2](./output.png)
+![Device Status](./status.png)
+![Router configuration](./router-ns.png)
